@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <img src="/img/logo-ford-256.png" alt="Logo Ford">
+        <nav>
+            <ul>
+                <a href="/home.html">Home</a>
+                <a href="/lançamento.html">Lançamento</a>
+                <a href="contato.html">Contato</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-contato">
+        <div class="imagem-contato">
+            <img src="img/storm.jpg" alt="Imagem-ford-storm">
+        </div>
+
+        <div>
+            <form>
+                <input type="text" id="nome-usuario" placeholder="Nome">
+                <input type="text" id="email" placeholder="E-mail">
+                <input type="text" id="telefone" placeholder="Telefone">
+                
+                <select name="Tipo-contato" id="tipo-de-contato">
+                    <option disabled selected>tipo de contato</option>
+                    <option value="elogio">Elogio</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="solicitacao">Solicitação</option>
+                </select>
+                <textarea id="mensagem" rows="4" placeholder="Mensagem" maxlength="500" autocorrect="on"></textarea>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <div class="redes-sociais">
+                <p>Redes Sociais</p>
+                <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR" target="_blank"><img src="/img/facebook-50.png" alt=""></a>
+                <a href="https://www.youtube.com/@fordbrasil" target="_blank"><img src="img/youtube-squared-50.png" alt=""></a>
+                <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img src="img/instagram-logo-50.png" alt=""></a>
+            </div>
+        </div>
+
+        <p class="copyright">&copy; 2023 Ford Enter. Todos os direitos reservados.</p>
+        <div>
+            <img src="img/ford-96.png" alt="">
+        </div>
+
+        <!-- <p>Desenvolvido por Nairlane Souza </p> -->
+    </footer>
 </body>
+
 </html>
